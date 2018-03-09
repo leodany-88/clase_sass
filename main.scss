@@ -1,0 +1,50 @@
+@import "main2";
+
+$black: #000;
+$zero: 0;
+$md: 25px;
+
+
+body{
+  margin: $zero;
+}
+
+
+nav{
+  height: 100px;
+  background-color: red;
+  a{
+    color:blue;
+  }
+}
+
+.box-bands{
+  display: flex;
+  justify-content: space-around;
+  margin-top: $md;
+  img{
+    height: 150px;
+    width: 150;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin black($black) {
+  color:$black;
+  border-right-color: $black;
+  border: 20px solid $black;
+}
+
+.color-negro{
+  @include black(#000);
+}
+
+.box-circle{
+  @include border-radius(50%);
+}

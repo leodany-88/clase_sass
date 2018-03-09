@@ -1,0 +1,41 @@
+.boto-rojo, .boto-blue {
+  height: 100px;
+  width: 200px;
+  color: #ffF;
+  border-radius: 5px; }
+
+.boto-rojo {
+  background-color: red; }
+
+.boto-blue {
+  background-color: blue; }
+
+body {
+  margin: 0; }
+
+nav {
+  height: 100px;
+  background-color: red; }
+  nav a {
+    color: blue; }
+
+.box-bands {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px; }
+  .box-bands img {
+    height: 150px;
+    width: 150; }
+
+.color-negro {
+  color: #000;
+  border-right-color: #000;
+  border: 20px solid #000; }
+
+.box-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=main.css.map */

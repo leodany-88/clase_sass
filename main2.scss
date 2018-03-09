@@ -1,0 +1,18 @@
+///HERENCIA
+
+%boton-padre{
+  height: 100px;
+  width: 200px;
+  color:#ffF;
+  border-radius: 5px;
+}
+
+.boto-rojo{
+  @extend %boton-padre;
+  background-color: red;
+}
+
+.boto-blue{
+  @extend %boton-padre;
+  background-color: blue;
+}
